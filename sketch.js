@@ -32,14 +32,14 @@ function draw(){
    	img2(sin(time*2*PI)*100+bigSizeW, bigsizeH,bigsizeH/3,bigsizeH/3);
    	bigsizeH = bigsizeH - 10;
    	if(bigsizeH < 0){
-   		bigsizeH= 800;
+   		bigsizeH= 142;
    	}
 
 
   	img2(sin(time*2*PI)*100+bigSizeW1, bigsizeH1,bigsizeH1/3,bigsizeH1/3);
    	bigsizeH1 = bigsizeH1 - 10;
    	if(bigsizeH1 < 0){
-   		bigsizeH1 = 800;
+   		bigsizeH1 = 142;
    	}
 
 
