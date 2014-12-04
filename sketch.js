@@ -29,20 +29,7 @@ function draw(){
     var time = (new Date())%1000/1000;
 
    
-    var time = (new Date())%1000/1000;
-    fill(0);
-   	ellipse(sin(time*2*PI)*100+bubbleX, bubbleY,bubbleY/3,bubbleY/3);
-   	bubbleY = bubbleY - 10;
-   	if(bubbleY < 0){
-   		bubbleY = 800;
-   	}
 
-    fill(0);
-   	ellipse(sin(time*2*PI)*50+bubbleX1, bubbleY1,bubbleY1/2,bubbleY1/2);
-   	bubbleY1 = bubbleY1 - 10;
-   	if(bubbleY1 < 0){
-   		bubbleY1 = 500;
-   	}
 
 
 
