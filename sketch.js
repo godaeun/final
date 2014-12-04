@@ -26,9 +26,9 @@ function draw(){
    image(img,218,61);
    image(img1,580,150);   
 
-   
+    var time = (new Date())%1000/1000;  
     fill(255);
-   	ellipse(snotX, snotY,snotY,snotY);
+   	ellipse(sin(time*2*PI)*100+snotX, snotY,snotY,snotY);
    	snotY = snotY - 50;
    	if(snotY < 0){
    		snotY = 100;
