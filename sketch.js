@@ -1,9 +1,8 @@
-
 var bg;
 var song;
 
 function preload() {
-  song = loadSound("croc.mp3");
+  song = loadSound("./croc.mp3");
 }
 
 function setup(){
