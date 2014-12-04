@@ -17,7 +17,7 @@ function setup(){
 
 function draw(){
    background(bg); 
-   image(img,500,360);
+   image(img,218,61);
 }
 
 
