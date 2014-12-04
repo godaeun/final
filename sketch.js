@@ -1,9 +1,9 @@
 var bg;
 var soound, amp;
-var bigSizeW=142;
-var bigSizeH=142;
-var smallSizeW1=42;
-var smallSizeH2=42;
+var bubbleY = 800;
+var bubbleX = 640;
+var bubbleY1 = 500;
+var bubbleX1 = 600;
 
 function preload() {
   sound = loadSound("bgm.mp3"); 
