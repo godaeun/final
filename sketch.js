@@ -29,7 +29,7 @@ function draw(){
     var time = (new Date())%1000/1000;  
     fill(255);
    	ellipse(sin(time*2*PI)*100+snotX, snotY,snotY,snotY);
-   	snotY = snotY - 50;
+   	snotY = snotY - 30;
    	if(snotY < 0){
    		snotY = 100;
    	}
