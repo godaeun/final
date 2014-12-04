@@ -1,16 +1,20 @@
 var bg;
-var song;
+var soound, bgm;
 
 function preload() {
-  song = loadSound("./croc.mp3");
+  sound = loadSound("./bgm.mp3");
+	bgm = loadSound("./bgm.mp3");
 }
 
 function setup(){
+   createCanvas(1016,721);
    bg = loadImage("1.jpg");
-   song.loop();
+   bgm.loop();
 }
 
 function draw(){
    background(bg);  
-   createCanvas(1016,721);
+
 }
+
+
