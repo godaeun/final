@@ -29,7 +29,7 @@ function draw(){
    
     fill(255);
    	ellipse(snotX, snotY,snotX1,snotY1);
-   	snotY = snotY ;
+   	snotY = snotY - 1;
    	if(snotY < 0){
    		snotY = 500;
    	}
