@@ -2,7 +2,7 @@
 var bg;
 
 function setup(){
-   bg = loadImage("1.png");
+   bg = loadImage("1.jpg");
 
 }
 function draw(){
