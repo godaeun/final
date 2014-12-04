@@ -29,12 +29,11 @@ function draw(){
    
     var time = (new Date())%1000/1000;
     fill(255);
-   	ellipse(sin(time*2*PI)*100+bubbleX, bubbleY,bubbleY/3,bubbleY/3);
-   	bubbleY = bubbleY - 10;
-   	if(bubbleY < 0){
-   		bubbleY = 800;
+   	ellipse(sin(time*2*PI)*100+snotX, snotY,snotY/3,snotY/3);
+   	snotY = snotY - 10;
+   	if(snotY < 0){
+   		snotY = 800;
    	}
-
 
 
 
