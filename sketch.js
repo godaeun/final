@@ -1,9 +1,9 @@
 var bg;
 var soound, amp;
-var snotY = 580;
-var snotX = 150;
-var snotY1 = 580;
-var snot1 = 150;
+var snotX = 580;
+var snotY = 150;
+var snotX1 = 580;
+var snotY1 = 150;
 
 function preload() {
   sound = loadSound("bgm.mp3"); 
@@ -33,7 +33,7 @@ function draw(){
    	ellipse(snotX, snotY,snotY/3,snotY/3);
    	snotY = snotY - 10;
    	if(snotY < 0){
-   		snotY = 800;
+   		snotY = 500;
    	}
 
 
