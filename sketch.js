@@ -22,5 +22,3 @@ function draw(){
    image(img1,580,150);   
 }
 
-
-
