@@ -31,7 +31,7 @@ function draw(){
    	ellipse(snotX, snotY,snotY,snotY);
    	snotY = snotY - 10;
    	if(snotY < 0){
-   		snotY = 500;
+   		snotY = 100;
    	}
 
 
