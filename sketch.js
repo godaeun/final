@@ -1,15 +1,16 @@
 var bg;
-var soound, bgm;
+var soound, amp;
 
 function preload() {
-  sound = loadSound("./bgm.mp3");
-	bgm = loadSound("./bgm.mp3");
+  sound = loadSound("bgm.mp3"); 
 }
 
 function setup(){
    createCanvas(1016,721);
    bg = loadImage("1.jpg");
-   bgm.loop();
+   amp = new p5.Amplitude();
+   amp.setInput(sound);
+   sound.loop();
 }
 
 function draw(){
