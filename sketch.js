@@ -28,14 +28,14 @@ function draw(){
 
    
     var time = (new Date())%1000/1000;
-    img2(sin(time*2*PI)*100+snotX, snotY,snotY/3,snotY/3);
+    image(sin(time*2*PI)*100+snotX, snotY,snotY/3,snotY/3);
    	snotY = snotY - 10;
    	if(snotY < 0){
    		snotY = 800;
    	}
 
    
-   img2(sin(time*2*PI)*50+snotX1, snotY1, snotY1/2, snotY1/2);
+   image(sin(time*2*PI)*50+snotX1, snotY1, snotY1/2, snotY1/2);
    	snotY1 = snotY1 - 10;
    	if(snotY1 < 0){
    		snotY1 = 500;
