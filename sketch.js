@@ -11,10 +11,13 @@ function setup(){
    amp = new p5.Amplitude();
    amp.setInput(sound);
    sound.loop();
+
+   img = loadImage("2.png");
 }
 
 function draw(){
-   background(bg);  
+   background(bg); 
+   image(img,500,360);
 }
 
 
