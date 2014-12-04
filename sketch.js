@@ -7,11 +7,7 @@ function setup() {
 
 function draw() {
    background(img);
-
-
    noStroke()
-   image(img, 0,500,270,270);
-
 
 }
 
