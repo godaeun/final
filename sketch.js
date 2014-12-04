@@ -13,11 +13,13 @@ function setup(){
    sound.loop();
 
    img = loadImage("2.png");
+   img1 = loadImage("3.png");   
 }
 
 function draw(){
    background(bg); 
    image(img,218,61);
+   image(img1,580,150);   
 }
 
 
