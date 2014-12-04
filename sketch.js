@@ -29,8 +29,8 @@ function draw(){
     var time = (new Date())%1000/1000;  
 
     fill(255);
-   	ellipse(snotX, snotY,snotX1,snotY1);
-   	snotY = snotY - 10;
+   	ellipse(snotX, snotY,snotY1,snotY1);
+   	snotY = snotY - 100;
    	if(snotY < 0){
    		snotY = 100;
    	}
