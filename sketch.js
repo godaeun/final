@@ -1,9 +1,9 @@
 var bg;
 var soound, amp;
-var snotY = 800;
-var snotX = 640;
-var snotY1 = 500;
-var snot1 = 600;
+var snotY = 580;
+var snotX = 150;
+var snotY1 = 580;
+var snot1 = 150;
 
 function preload() {
   sound = loadSound("bgm.mp3"); 
