@@ -7,6 +7,7 @@ function preload() {
 
 function setup(){
    bg = loadImage("1.jpg");
+   song.loop();
 }
 
 function draw(){
