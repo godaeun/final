@@ -3,7 +3,7 @@ var soound, amp;
 var snotY = 800;
 var snotX = 640;
 var snotY1 = 500;
-var snotY1 = 600;
+var snot1 = 600;
 
 function preload() {
   sound = loadSound("bgm.mp3"); 
@@ -28,18 +28,13 @@ function draw(){
 
    
     var time = (new Date())%1000/1000;
-    image(sin(time*2*PI)*100+snotX, snotY,snotY/3,snotY/3);
-   	snotY = snotY - 10;
-   	if(snotY < 0){
-   		snotY = 800;
+    fill(255);
+   	ellipse(sin(time*2*PI)*100+bubbleX, bubbleY,bubbleY/3,bubbleY/3);
+   	bubbleY = bubbleY - 10;
+   	if(bubbleY < 0){
+   		bubbleY = 800;
    	}
 
-   
-   image(sin(time*2*PI)*50+snotX1, snotY1, snotY1/2, snotY1/2);
-   	snotY1 = snotY1 - 10;
-   	if(snotY1 < 0){
-   		snotY1 = 500;
-   	}
 
 
 
