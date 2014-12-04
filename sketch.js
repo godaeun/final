@@ -2,8 +2,8 @@ var bg;
 var soound, amp;
 var snotX = 580;
 var snotY = 150;
-var snotX1 = 580;
-var snotY1 = 150;
+var snotX1 = 600;
+var snotY1 = 120;
 
 function preload() {
   sound = loadSound("bgm.mp3"); 
@@ -27,8 +27,9 @@ function draw(){
    image(img1,580,150);   
 
     var time = (new Date())%1000/1000;  
+
     fill(255);
-   	ellipse(sin(time*2*PI)*10+snotX, snotY,snotY,snotY);
+   	ellipse(snotX, snotY,snotX1,snotY1);
    	snotY = snotY - 10;
    	if(snotY < 0){
    		snotY = 100;
