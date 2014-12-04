@@ -11,5 +11,7 @@ function setup()
 function draw()
 {
     background(bg);
+    fill(237,112,50);
+    noStroke();
     
     }
