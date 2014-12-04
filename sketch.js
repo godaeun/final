@@ -1,13 +1,11 @@
-function setup() {
-  createCanvas(1016, 721);
-  img = loadImage("1.png");
+var bg;
 
-
-}
-
-function draw() {
-   background(img);
-   noStroke()
+function setup(){
+   bg = loadImage("1.png");
 
 }
+function draw(){
+   background(bg);  
+   createCanvas(1016,721);
 
+}
