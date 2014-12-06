@@ -39,23 +39,16 @@ function draw(){
 
 
    if(toothClicked){
-        fill(0,255,0);
-        rect(200,300,100,200);
         image(img4, 340,383);
    }else{
-        fill(0,255,0);
-        rect(200,100,100,500);
         image(img15, 340,411);
    }
 
-   fill(255);
-   rect(300,150,50,120);
    image(img4, 340,383);
 
 }
 
 function mousePressed(){
-    if(mouseX > 300 && mouseX < 350 && mouseY > 150 && mouseY < 270){
     if(mouseX > 340 && mouseX < 371 && mouseY > 383 && mouseY < 435){
         toothClicked =true;
     }
