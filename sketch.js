@@ -18,7 +18,12 @@ function greet() {
  for (var i=0; i<200; i++) {
   push();
   fill(random(255), 255, 255);
-  function setup(){
+  rect(50,50,50,50)
+  pop();
+}
+}
+
+function setup(){
    createCanvas(1016,721);
    bg = loadImage("1.jpg");
    amp = new p5.Amplitude();
@@ -53,9 +58,6 @@ function draw(){
    angle += 0.02;
 
 
-}
-  pop();
-}
 }
 
 
