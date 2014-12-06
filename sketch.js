@@ -21,29 +21,29 @@ function setup(){
    img1 = loadImage("3.png");
    img2 = loadImage("4.png");
 
-   tooth1 = loadImage('a.png');
-   tooth2 = loadImage('b.png');
-   tooth3 = loadImage('c.png');
-   tooth4 = loadimage('d.png');
-   tooth5 = loadImage('e.png');
-   tooth6 = loadImage('f.png');
-   tooth7 = loadImage('g.png');
-   tooth8 = loadimage('h.png');
-   tooth9 = loadImage('i.png');
-   tooth10 = loadImage('j.png');
-   tooth11 = loadImage('k.png');
+   img3 = loadImage('a.png');
+   img4 = loadImage('b.png');
+   img5 = loadImage('c.png');
+   img6 = loadimage('d.png');
+   img7 = loadImage('e.png');
+   img8 = loadImage('f.png');
+   img9 = loadImage('g.png');
+   img10 = loadimage('h.png');
+   img11 = loadImage('i.png');
+   img12 = loadImage('j.png');
+   img13 = loadImage('k.png');
 
-   pull1 = loadImage('aa.png');
-   pull2 = loadImage('bb.png');
-   pull3 = loadImage('cc.png');
-   pull4 = loadimage('dd.png');
-   pull5 = loadImage('ee.png');
-   pull6 = loadImage('ff.png');
-   pull7 = loadImage('gg.png');
-   pull8 = loadimage('hh.png');
-   pull9 = loadImage('ii.png');
-   pull10 = loadImage('jj.png');
-   pull11 = loadImage('kk.png');   
+   img14 = loadImage('aa.png');
+   img15 = loadImage('bb.png');
+   img16 = loadImage('cc.png');
+   img17 = loadimage('dd.png');
+   img18 = loadImage('ee.png');
+   img19 = loadImage('ff.png');
+   img20 = loadImage('gg.png');
+   img21 = loadimage('hh.png');
+   img22 = loadImage('ii.png');
+   img23 = loadImage('jj.png');
+   img24 = loadImage('kk.png');   
 
 
 }
