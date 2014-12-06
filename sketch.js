@@ -69,7 +69,6 @@ function draw(){
    fill(255);
    rect(300,150,50,120);
 
-
 }
 
 function mousePressed(){
