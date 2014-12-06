@@ -2,7 +2,8 @@ var bg;
 var soound, amp;
 var diameter; 
 var angle = 0;
-var toothClicked;
+var toothClicked1;
+
 
 function preload() {
  sound = loadSound("bgm.mp3"); 
@@ -41,7 +42,7 @@ function draw(){
    angle += 0.02;
 
 // a
-   if(toothClicked){
+   if(toothClicked1){
    image(img15,340, 411);
    }else{
    image(img4,340, 383);   
@@ -59,7 +60,7 @@ function draw(){
 
 function mousePressed(){
     if(mouseX > 340 && mouseX < 371 && mouseY > 383 && mouseY < 435){
-        toothClicked =true;
+        toothClicked1 =true;
             }
 }
 
