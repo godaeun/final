@@ -2,7 +2,8 @@ var bg;
 var soound, amp;
 var diameter; 
 var angle = 0;
-var toothClicked;
+var toothClicked1;
+var toothClicked2;
 
 function preload() {
  sound = loadSound("bgm.mp3"); 
@@ -26,6 +27,9 @@ function setup(){
    img4 = loadImage("to1.png");
    img15 = loadImage("t1.png");
 
+   img5 = loadImage("to2.png");
+   img16 = loadImage("t2.png");
+
 
 }
 
@@ -38,22 +42,27 @@ function draw(){
    angle += 0.02;
 
 
-   if(toothClicked){
+   if(toothClicked1){
    image(img15,340, 411);
    }else{
    image(img4,340, 383);   
    }
-
+   
+   if(toothClicked2){
+   image(img16,336, 464);
+   }else{
+   image(img5,336, 436);   
+   }
 
 
 }
 
 function mousePressed(){
     if(mouseX > 340 && mouseX < 371 && mouseY > 383 && mouseY < 435){
-        toothClicked =true;
+        toothClicked1 =true;
     }
 }
 
     if(mouseX > 336 && mouseX < 365 && mouseY > 436 && mouseY < 486){
-        toothClicked =true;
+        toothClicke2 =true;
             }
