@@ -51,7 +51,10 @@ function setup(){
 }
 
 function draw(){
-@@ -31,21 +57,19 @@ function draw(){
+   background(bg); 
+   image(img,218,61);
+
+   var d2 = 10 + (sin(angle + PI/20) * diameter/20) + diameter/20;   
    image(img1, 580, 270, d2, d2);
    angle += 0.02;
 
