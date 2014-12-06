@@ -14,7 +14,7 @@ function setup(){
    amp = new p5.Amplitude();
    amp.setInput(sound);
    sound.loop();
-   diameter = height - 40;
+   diameter = height - 30;
 
    img = loadImage("2.png");
    img1 = loadImage("3.png");
@@ -25,7 +25,7 @@ function draw(){
    background(bg); 
    image(img,218,61);
 
-   var d2 = 10 + (sin(angle + PI/20) * diameter/10) + diameter/20;
+   var d2 = 10 + (sin(angle + PI/20) * diameter/20) + diameter/20;
    image(img1, 580, 270, d2, d2);
    angle += 0.02;
 
