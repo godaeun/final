@@ -24,17 +24,8 @@ function setup(){
    img3 = loadImage("4.png");
 
    img4 = loadImage("to1.png");
-   img5 = loadImage("to2.png");
-   img6 = loadImage("to3.png");
-   img7 = loadimage("to4.png");
-   img8 = loadImage("to5.png");
-   img9 = loadImage("to6.png");
-   img10 = loadImage("to7.png");
-   img11 = loadimage("to8.png");
-   img12 = loadImage("to9.png");
-   img13 = loadImage("to10.png");
-   img14 = loadImage("to11.png");
-
+   img15 = loadImage("t1.png");
+   
 
 }
 
