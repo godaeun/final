@@ -31,7 +31,7 @@ function draw(){
    var d3 = 10 + (sin(angle + PI) * diameter/2) + diameter/2;
 
 
-   ellipse(width/2, height/2, d2, d2);
+   img1(width/2, height/2, d2, d2);
 
    angle += 0.02;
 
