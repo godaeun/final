@@ -2,7 +2,7 @@ var bg;
 var soound, amp;
 var diameter; 
 var angle = 0;
-var toothClicked1;
+var toothClicked = [];
 
 
 function preload() {
@@ -11,11 +11,15 @@ function preload() {
 
 function setup(){
    toothClicked = false;
+   toothClicked = [1,2,3,4,5,6,7,8,9,10,11]
+
    createCanvas(1016,721);
    bg = loadImage("1.jpg");
+
    amp = new p5.Amplitude();
    amp.setInput(sound);
    sound.loop();
+
    diameter = height - 40;
 
 
@@ -42,14 +46,14 @@ function draw(){
    angle += 0.02;
 
 // a
-   if(toothClicked1){
+   if(toothClicked[1]){
    image(img15,340, 411);
    }else{
    image(img4,340, 383);   
    }
 
 // b
-   if(toothClicked){
+   if(toothClicked[1]){
    image(img16,336, 464);
    }else{
    image(img5,336, 436);   
@@ -60,7 +64,7 @@ function draw(){
 
 function mousePressed(){
     if(mouseX > 340 && mouseX < 371 && mouseY > 383 && mouseY < 435){
-        toothClicked1 =true;
+        toothClicked[1] =true;
             }
 }
 
