@@ -26,7 +26,7 @@ function draw(){
    image(img,218,61);
 
    var d2 = 10 + (sin(angle + PI/20) * diameter/20) + diameter/20;
-   image(img1, 600, 200, d2, d2);
+   image(img1, 600, 250, d2, d2);
    angle += 0.02;
 
 
