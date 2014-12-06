@@ -10,7 +10,7 @@ function preload() {
 }
 
 function setup(){
-   toothClicked = false;
+   toothClicked[] = false;
 
    createCanvas(1016,721);
    bg = loadImage("1.jpg");
