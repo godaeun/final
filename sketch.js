@@ -46,14 +46,14 @@ function draw(){
    angle += 0.02;
 
 // a
-   if(toothClicked[1]){
+   if(toothClicked[1]);{
    image(img15,340, 411);
    }else{
    image(img4,340, 383);   
    }
 
 // b
-   if(toothClicked[1]){
+   if(toothClicked[1]);{
    image(img16,336, 464);
    }else{
    image(img5,336, 436);   
