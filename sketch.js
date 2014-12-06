@@ -40,33 +40,33 @@ function draw(){
    image(img1, 580, 270, d2, d2);
    angle += 0.02;
 
-//드디어한개함
+// a
    if(toothClicked){
    image(img15,340, 411);
    }else{
    image(img4,340, 383);   
    }
 
-//제발되라
+function mousePressed(){
+    if(mouseX > 340 && mouseX < 371 && mouseY > 383 && mouseY < 435){
+        toothClicked =true;
+            }
+}
+
+// b
    if(toothClicked){
    image(img16,336, 464);
    }else{
    image(img5,336, 436);   
    }
 
-
-}
-
 function mousePressed(){
-    if(mouseX > 340 && mouseX < 371 && mouseY > 383 && mouseY < 435){
-        toothClicked =true;
-            }
 
     if(mouseX > 336 && mouseX < 365 && mouseY > 436 && mouseY < 486){
         toothClicked =true;
             }
-
 }
+
 
 
 
