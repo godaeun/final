@@ -27,25 +27,25 @@ function setup(){
    tooth2 = loadImage("b.png");
    tooth3 = loadImage("c.png");
    tooth4 = loadimage("d.png");
-   tooth1 = loadImage("e.png");
-   tooth2 = loadImage("f.png");
-   tooth3 = loadImage("g.png");
-   tooth4 = loadimage("h.png");
-   tooth1 = loadImage("i.png");
-   tooth2 = loadImage("j.png");
-   tooth3 = loadImage("k.png");
+   tooth5 = loadImage("e.png");
+   tooth6 = loadImage("f.png");
+   tooth7 = loadImage("g.png");
+   tooth8 = loadimage("h.png");
+   tooth9 = loadImage("i.png");
+   tooth10 = loadImage("j.png");
+   tooth11 = loadImage("k.png");
 
    pull1 = loadImage("aa.png");
    pull2 = loadImage("bb.png");
    pull3 = loadImage("cc.png");
    pull4 = loadimage("dd.png");
-   pull1 = loadImage("ee.png");
-   pull2 = loadImage("ff.png");
-   pull3 = loadImage("gg.png");
-   pull4 = loadimage("hh.png");
-   pull1 = loadImage("ii.png");
-   pull2 = loadImage("jj.png");
-   pull3 = loadImage("kk.png");   
+   pull5 = loadImage("ee.png");
+   pull6 = loadImage("ff.png");
+   pull7 = loadImage("gg.png");
+   pull8 = loadimage("hh.png");
+   pull9 = loadImage("ii.png");
+   pull10 = loadImage("jj.png");
+   pull11 = loadImage("kk.png");   
 
 
 }
