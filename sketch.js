@@ -11,7 +11,7 @@ function preload() {
 
 function setup(){
    toothClicked = false;
-   toothClicked = [1,2,3,4,5,6,7,8,9,10,11]
+   toothClicked = [1,2,3,4,5,6,7,8,9,10,11];
 
    createCanvas(1016,721);
    bg = loadImage("1.jpg");
