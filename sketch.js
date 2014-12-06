@@ -59,12 +59,16 @@ function draw(){
 
 
    if(toothClicked){
-        image(tooth1, 340,383);
+        fill(0,255,0);
+        rect(200,300,100,200);
    }else{
-        image(pull1, 340,411);
+        fill(0,255,0);
+        rect(200,100,100,500);
    }
 
-   image(tooth1, 340,383);
+   fill(255);
+   rect(300,150,50,120);
+
 
 }
 
