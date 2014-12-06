@@ -85,55 +85,55 @@ function draw(){
    image(img5,336, 436);   
    }
 
-   if(toothClicked2){
+   if(toothClicked3){
    image(img17,357, 501);
    }else{
    image(img6,357, 469);   
    }
 
-   if(toothClicked2){
+   if(toothClicked4){
    image(img18,393, 523);
    }else{
    image(img7,393, 493);   
    }
 
-   if(toothClicked2){
+   if(toothClicked5){
    image(img19,440, 537);
    }else{
    image(img8,440, 505);   
    }      
    
-   if(toothClicked2){
+   if(toothClicked6){
    image(img20,491, 537);
    }else{
    image(img9,491, 508);   
    }
 
-   if(toothClicked2){
+   if(toothClicked7){
    image(img21,548, 536);
    }else{
    image(img10,548, 504);   
    }
 
-   if(toothClicked2){
+   if(toothClicked8){
    image(img22,596, 523);
    }else{
    image(img11,596, 492);   
    }
 
-   if(toothClicked2){
+   if(toothClicked9){
    image(img23,637, 501);
    }else{
    image(img12,637, 469);   
    }      
    
-   if(toothClicked2){
+   if(toothClicked10){
    image(img24,669, 464);
    }else{
    image(img13,669, 436);   
    }   
 
-   if(toothClicked2){
+   if(toothClicked11){
    image(img25,665, 410);
    }else{
    image(img14,665, 383);   
@@ -148,31 +148,31 @@ function mousePressed(){
         toothClicked2 =true;
             }
     if(mouseX > 357 && mouseX < 394 && mouseY > 469 && mouseY < 528){
-        toothClicked1 =true;
+        toothClicked3 =true;
             }
     if(mouseX > 393 && mouseX < 436 && mouseY > 493 && mouseY < 549){
-        toothClicked2 =true;
+        toothClicked4 =true;
             }
     if(mouseX > 440 && mouseX < 486 && mouseY > 505 && mouseY < 562){
-        toothClicked1 =true;
+        toothClicked5 =true;
             }
     if(mouseX > 491 && mouseX < 541 && mouseY > 508 && mouseY < 564){
-        toothClicked2 =true;
+        toothClicked6 =true;
             }
     if(mouseX > 548 && mouseX < 594 && mouseY > 504 && mouseY < 560){
-        toothClicked1 =true;
+        toothClicked7 =true;
             }
     if(mouseX > 596 && mouseX < 639 && mouseY > 492 && mouseY < 549){
-        toothClicked2 =true;
+        toothClicked8 =true;
             }
     if(mouseX > 637 && mouseX < 674 && mouseY > 469 && mouseY < 528){
-        toothClicked1 =true;
+        toothClicked9 =true;
             }
     if(mouseX > 669 && mouseX < 698 && mouseY > 436 && mouseY < 486){
-        toothClicked2 =true;
+        toothClicked10 =true;
             }                                                
     if(mouseX > 665 && mouseX < 696 && mouseY > 383 && mouseY < 434){
-        toothClicked1 =true;
+        toothClicked11 =true;
             }
 }
 
