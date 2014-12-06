@@ -2,7 +2,7 @@ var bg;
 var soound, amp;
 var diameter; 
 var angle = 0;
-var toothClicked =[1,2,3,4,5,6,7,8,9,10,11];
+var toothClicked =[];
 
 
 function preload() {
@@ -45,28 +45,29 @@ function draw(){
    angle += 0.02;
 
 // a
-   if(toothClicked[1]){
+   for(var i = 0 ; i <12 ; i++){
+   if(toothClicked[i]){
    image(img15,340, 411);
    }else{
    image(img4,340, 383);   
    }
 
 // b
-   if(toothClicked[1]){
+   if(toothClicked[i]){
    image(img16,336, 464);
    }else{
    image(img5,336, 436);   
    }
-
-
 }
 
+}
+for(var i = 0 ; i <12 ; i++){
 function mousePressed(){
     if(mouseX > 340 && mouseX < 371 && mouseY > 383 && mouseY < 435){
         toothClicked[1] =true;
             }
 }
-
+}
 
 
 
