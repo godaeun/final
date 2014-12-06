@@ -64,6 +64,6 @@ function mousePressed(){
 
 
     if(mouseX > 336 && mouseX < 365 && mouseY > 436 && mouseY < 486){
-        toothClicke2 =true;
-            }
+        toothClicked2 =true;
+       }
 }            
