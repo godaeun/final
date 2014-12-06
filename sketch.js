@@ -73,7 +73,7 @@ function draw(){
 }
 
 function mousePressed(){
-    if(mouseX > 340 && mouseX < 371 && mouseY > 383 && mouseY < 435){
+    if(mouseX > 300 && mouseX < 350 && mouseY > 150 && mouseY < 270){
         toothClicked =true;
     }
 }
