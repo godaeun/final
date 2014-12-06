@@ -39,11 +39,9 @@ function draw(){
 
 
    if(toothClicked){
-        fill(0,255,0);
-        rect(200,300,100,200);
+   image(img4,340, 383);
    }else{
-        fill(0,255,0);
-        rect(200,100,100,500);
+   image(img15,340, 411);
    }
 
    fill(255);
