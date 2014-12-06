@@ -26,6 +26,9 @@ function setup(){
    img4 = loadImage("to1.png");
    img15 = loadImage("t1.png");
 
+   img5 = loadImage("to2.png");
+   img16 = loadImage("t2.png");
+
 
 }
 
@@ -37,13 +40,19 @@ function draw(){
    image(img1, 580, 270, d2, d2);
    angle += 0.02;
 
-
+//드디어한개함
    if(toothClicked){
    image(img15,340, 411);
    }else{
    image(img4,340, 383);   
    }
 
+//제발되라
+   if(toothClicked){
+   image(img16,336, 436);
+   }else{
+   image(img5,336, 464);   
+   }
 
 
 }
@@ -51,7 +60,12 @@ function draw(){
 function mousePressed(){
     if(mouseX > 340 && mouseX < 371 && mouseY > 383 && mouseY < 435){
         toothClicked =true;
-    }
+            }
+
+    if(mouseX > 336 && mouseX < 365 && mouseY > 464 && mouseY < 514){
+        toothClicked =true;
+            }
+
 }
 
 
