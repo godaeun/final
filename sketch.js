@@ -2,7 +2,7 @@ var bg;
 var soound, amp;
 var diameter; 
 var angle = 0;
-var toothClicked = [];
+var toothClicked =[1,2,3,4,5,6,7,8,9,10,11];
 
 
 function preload() {
@@ -11,7 +11,6 @@ function preload() {
 
 function setup(){
    toothClicked = false;
-   toothClicked = [1,2,3,4,5,6,7,8,9,10,11];
 
    createCanvas(1016,721);
    bg = loadImage("1.jpg");
@@ -46,14 +45,14 @@ function draw(){
    angle += 0.02;
 
 // a
-   if(toothClicked[1]);{
+   if(toothClicked[1]){
    image(img15,340, 411);
    }else{
    image(img4,340, 383);   
    }
 
 // b
-   if(toothClicked[1]);{
+   if(toothClicked[1]){
    image(img16,336, 464);
    }else{
    image(img5,336, 436);   
