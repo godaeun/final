@@ -24,16 +24,11 @@ function setup(){
 function draw(){
    background(bg); 
    image(img,218,61);
-   image(img1,580,150);   
 
-   var d1 = 10 + (sin(angle) * diameter/2) + diameter/2;
-   var d2 = 10 + (sin(angle + PI/2) * diameter/2) + diameter/2;
-   var d3 = 10 + (sin(angle + PI) * diameter/2) + diameter/2;
-
-
-   image(img1, width/2, height/2, d2, d2);
-
+   var d2 = 10 + (sin(angle + PI/10) * diameter/7) + diameter/4;
+   image(img1, 580, 120, d2, d2);
    angle += 0.02;
+
 
 }
 
