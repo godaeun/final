@@ -9,7 +9,16 @@ function preload() {
   sound = loadSound("bgm.mp3"); 
 }
 
-function setup(){
+
+function greet() {
+ var name = input.value();
+ greeting.html(''+name+'!');
+ input.value('');
+
+ for (var i=0; i<200; i++) {
+  push();
+  fill(random(255), 255, 255);
+  function setup(){
    createCanvas(1016,721);
    bg = loadImage("1.jpg");
    amp = new p5.Amplitude();
@@ -45,19 +54,10 @@ function draw(){
 
 
 }
-
-function greet() {
- var name = input.value();
- greeting.html(''+name+'!');
- input.value('');
-
- for (var i=0; i<200; i++) {
-  push();
-  fill(random(255), 255, 255);
-  rect(50,50,50,50)
   pop();
 }
 }
+
 
 
 
