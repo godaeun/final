@@ -47,12 +47,6 @@ function draw(){
    image(img4,340, 383);   
    }
 
-function mousePressed(){
-    if(mouseX > 340 && mouseX < 371 && mouseY > 383 && mouseY < 435){
-        toothClicked =true;
-            }
-}
-
 // b
    if(toothClicked){
    image(img16,336, 464);
@@ -60,13 +54,14 @@ function mousePressed(){
    image(img5,336, 436);   
    }
 
-function mousePressed(){
 
-    if(mouseX > 336 && mouseX < 365 && mouseY > 436 && mouseY < 486){
+}
+
+function mousePressed(){
+    if(mouseX > 340 && mouseX < 371 && mouseY > 383 && mouseY < 435){
         toothClicked =true;
             }
 }
-
 
 
 
