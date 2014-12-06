@@ -44,7 +44,7 @@ function draw(){
    image(img4,340, 383);   
    }
 
-   image(img15,252, 411);
+
 
 }
 
