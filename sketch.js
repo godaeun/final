@@ -49,9 +49,9 @@ function draw(){
 
 //제발되라
    if(toothClicked){
-   image(img16,336, 436);
+   image(img16,336, 464);
    }else{
-   image(img5,336, 464);   
+   image(img5,336, 436);   
    }
 
 
@@ -62,7 +62,7 @@ function mousePressed(){
         toothClicked =true;
             }
 
-    if(mouseX > 336 && mouseX < 365 && mouseY > 464 && mouseY < 514){
+    if(mouseX > 336 && mouseX < 365 && mouseY > 436 && mouseY < 486){
         toothClicked =true;
             }
 
