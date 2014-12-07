@@ -30,7 +30,8 @@ function setup(){
 
    img = loadImage("2.png");
    img1 = loadImage("3.png");
-   img2 = loadImage("4.png");   
+   img2 = loadImage("4.png"); 
+
 
 
    img4 = loadImage("to1.png");
@@ -65,10 +66,23 @@ function setup(){
 
    img14 = loadImage("to11.png");
    img25 = loadImage("t11.png"); 
+
+   img26 = loadimage("5.png");
+   img27 = loadimage("6.png");
+
+   count1 = 0;
+   count2 = 0;
 }
 
 function draw(){
    background(bg); 
+
+  image(img26,count2,0);
+  count2=count2+25;
+  if(count2>1016){
+  count2=0;
+  } 
+
    image(img,218,61);
 
    var d2 = 10 + (sin(angle + PI/20) * diameter/20) + diameter/20;   
