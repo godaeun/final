@@ -18,7 +18,8 @@ var goCount1 = 0;
 
 
 function preload() {
- bgm = loadSound("bgm.mp3"); 
+ sound = loadSound("bgm.mp3"); 
+
 }
 
 function setup(){
@@ -78,7 +79,6 @@ function setup(){
 }
 
 function draw(){
-  
    background(bg); 
    noCursor();   
 
