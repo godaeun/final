@@ -78,8 +78,6 @@ function draw(){
 
    image(img26, 0+goCount, 0);
    goCount = goCount +10;
-   if(goCount > img26,width){
-    goCount = 0 ;
    }
 
    image(img,218,61);
