@@ -69,7 +69,7 @@ function setup(){
    img25 = loadImage("t11.png"); 
 
    img26 = loadImage("5.png");
-
+   img27 = loadImage("6.png");      
 
 }
 
@@ -80,13 +80,16 @@ function draw(){
    goCount = goCount +2;
    if(goCount > 1016){
      goCount = 0;
-   if(toothClicked10){
-   image(img26,0+goCount, 134);
-   }else{
-   image(img13,0+goCount, 134);   
-   }   
    }
-   
+
+
+   image(img27, 0+goCount, 615);
+   goCount = goCount -2;
+   if(goCount > -1016){
+     goCount = 0;
+   }   
+
+ 
 
 
    image(img,218,61);
