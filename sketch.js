@@ -70,18 +70,11 @@ function setup(){
    img26 = loadimage("5.png");
    img27 = loadimage("6.png");
 
-   count1 = 0;
-   count2 = 0;
+
 }
 
 function draw(){
    background(bg); 
-
-  image(img26,count2,0);
-  count2=count2+25;
-  if(count2>1016){
-  count2=0;
-  } 
 
    image(img,218,61);
 
