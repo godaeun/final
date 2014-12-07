@@ -76,10 +76,13 @@ function setup(){
 function draw(){
    background(bg); 
 
-   image(img26, 0+goCount, 0);
-   goCount = goCount +10;
+   image(img26, 0+goCount, 134);
+   goCount = goCount +50;
+   if(goCount > 1016){
+     goCount = 0;
+   }
    
-   
+
    image(img,218,61);
 
    var d2 = 10 + (sin(angle + PI/20) * diameter/20) + diameter/20;   
