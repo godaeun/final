@@ -172,7 +172,7 @@ function draw(){
      goCount1 = 0;
    }      
 
-   image(img28,mouseX-250,mouseY-20,500,500);
+   image(img28,mouseX-250,mouseY-20,207,439);
 }
 
 function mousePressed(){
