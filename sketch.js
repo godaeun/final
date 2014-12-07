@@ -71,7 +71,9 @@ function setup(){
    img25 = loadImage("t11.png"); 
 
    img26 = loadImage("5.png");
-   img27 = loadImage("6.png");      
+   img27 = loadImage("6.png");     
+
+   img28 = loadImage("7.png"); 
 
 }
 
@@ -169,6 +171,8 @@ function draw(){
    if(goCount1 < -1016){
      goCount1 = 0;
    }      
+
+   image(img28,mouseX-250,mouseY-20,500,500);
 }
 
 function mousePressed(){
