@@ -1,4 +1,5 @@
 var bg;
+var soound, bgm;
 var diameter; 
 var angle = 0;
 var toothClicked1;
@@ -14,11 +15,12 @@ var toothClicked10;
 var toothClicked11;
 var goCount = 0;
 var goCount1 = 0;
-var soound, bgm;
+
 
 
 function preload() {
  sound = loadSound("gm.wav"); 
+ sound1 = loadSound("drr.mp3");
 
 }
 
@@ -222,7 +224,7 @@ function mousePressed(){
 
     if(mouseX > 637 && mouseX < 674 && mouseY > 469 && mouseY < 528){
         toothClicked9 =true;
-         sound.play();        
+         sound1.play();        
                     }
 
     if(mouseX > 669 && mouseX < 698 && mouseY > 436 && mouseY < 486){
