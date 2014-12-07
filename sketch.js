@@ -78,8 +78,8 @@ function draw(){
 
    image(img26, 0+goCount, 0);
    goCount = goCount +10;
-   }
-
+   
+   
    image(img,218,61);
 
    var d2 = 10 + (sin(angle + PI/20) * diameter/20) + diameter/20;   
