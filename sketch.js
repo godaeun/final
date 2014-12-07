@@ -141,6 +141,12 @@ function draw(){
    }else{
    image(img14,665, 383);   
    }  
+
+   if(toothClicked9){
+   image(img2,218, 61);
+   }else{
+   image(img12,637, 469);   
+   }       
 }
 
 function mousePressed(){
