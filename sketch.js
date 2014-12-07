@@ -13,6 +13,7 @@ var toothClicked8;
 var toothClicked9;
 var toothClicked10;
 var toothClicked11;
+var goCount = 0;
 
 function preload() {
  sound = loadSound("bgm.mp3"); 
@@ -67,13 +68,19 @@ function setup(){
    img14 = loadImage("to11.png");
    img25 = loadImage("t11.png"); 
 
-
+   img26 = loadImage("5.png");
 
 
 }
 
 function draw(){
    background(bg); 
+
+   image(img26, 0+goCount, 0);
+   goCount = goCount +10;
+   if(goCount > img26,width){
+    goCount = 0 ;
+   }
 
    image(img,218,61);
 
