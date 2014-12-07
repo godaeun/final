@@ -182,16 +182,8 @@ function draw(){
 
 function mousePressed(){
     if(mouseX > 340 && mouseX < 371 && mouseY > 383 && mouseY < 435){
-        toothClicked1 =true;
+        toothClicked1 =true;  
 
-    if(loadingImage === 1){
-      loadingImage = 2;
-      sound.play();
-    }else if(loadingImage ===2){
-      loadingImage =1;
-      sound.stop();
-    }         
-    
     }
 
 
