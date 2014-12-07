@@ -86,12 +86,6 @@ function draw(){
 
    image(img,218,61);
 
-   image(img27, 1016+goCount1, 615);
-   goCount1 = goCount1 -1;
-   if(goCount1 < -1016){
-     goCount1 = 0;
-   } 
-
 
    var d2 = 10 + (sin(angle + PI/20) * diameter/20) + diameter/20;   
    image(img1, 580, 270, d2, d2);
@@ -168,7 +162,13 @@ function draw(){
    image(img2,218, 61);
    }else{
    image(img12,637, 469);   
-   }       
+   }     
+
+   image(img27, 1016+goCount1, 615);
+   goCount1 = goCount1 -1;
+   if(goCount1 < -1016){
+     goCount1 = 0;
+   }      
 }
 
 function mousePressed(){
