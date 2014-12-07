@@ -14,10 +14,10 @@ var toothClicked10;
 var toothClicked11;
 var goCount = 0;
 var goCount1 = 0;
+var soound, bgm;
 
 
 function preload() {
- soundFormats('wav', 'ogg');
  soundFile = loadSound("gm.wav"); 
 
 }
