@@ -31,7 +31,7 @@ function setup(){
    img = loadImage("2.png");
    img1 = loadImage("3.png");
    img2 = loadImage("4.png");   
-   img3 = loadImage("4.png");
+
 
    img4 = loadImage("to1.png");
    img15 = loadImage("t1.png");
@@ -125,7 +125,7 @@ function draw(){
    }
 
    if(toothClicked9){
-   image(img23,637, 501);
+   image(img3,218, 61);
    }else{
    image(img12,637, 469);   
    }      
