@@ -19,7 +19,6 @@ var goCount1 = 0;
 
 function preload() {
  bgm = loadSound("bgm.mp3"); 
- sound = loadSound("gm.wav");
 
 }
 
