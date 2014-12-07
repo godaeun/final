@@ -67,8 +67,7 @@ function setup(){
    img14 = loadImage("to11.png");
    img25 = loadImage("t11.png"); 
 
-   img26 = loadimage("5.png");
-   img27 = loadimage("6.png");
+
 
 
 }
