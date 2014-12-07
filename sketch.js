@@ -79,6 +79,7 @@ function setup(){
 
 function draw(){
    background(bg); 
+   noCursor();   
 
    image(img26, 0+goCount, 134);
    goCount = goCount +3;
@@ -172,8 +173,10 @@ function draw(){
      goCount1 = 0;
    }      
 
-   image(img28,mouseX-15,mouseY,207,439);
+   image(img28,mouseX-17,mouseY,207,439);
+
 }
+
 
 function mousePressed(){
     if(mouseX > 340 && mouseX < 371 && mouseY > 383 && mouseY < 435){
