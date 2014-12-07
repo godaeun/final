@@ -187,42 +187,52 @@ function mousePressed(){
 
     if(mouseX > 336 && mouseX < 365 && mouseY > 436 && mouseY < 486){
         toothClicked2 =true;
+         sound.play();
        }
 
     if(mouseX > 357 && mouseX < 394 && mouseY > 469 && mouseY < 528){
         toothClicked3 =true;
+         sound.play();        
             }    
 
     if(mouseX > 393 && mouseX < 436 && mouseY > 493 && mouseY < 549){
         toothClicked4 =true;
+         sound.play();        
             }
 
     if(mouseX > 440 && mouseX < 486 && mouseY > 505 && mouseY < 562){
         toothClicked5 =true;
+         sound.play();        
             }
 
     if(mouseX > 491 && mouseX < 541 && mouseY > 508 && mouseY < 564){
         toothClicked6 =true;
+         sound.play();        
             }
 
     if(mouseX > 548 && mouseX < 594 && mouseY > 504 && mouseY < 560){
         toothClicked7 =true;
+         sound.play();        
             }
 
     if(mouseX > 596 && mouseX < 639 && mouseY > 492 && mouseY < 549){
         toothClicked8 =true;
+         sound.play();        
             }
 
     if(mouseX > 637 && mouseX < 674 && mouseY > 469 && mouseY < 528){
         toothClicked9 =true;
+         sound.play();        
                     }
 
     if(mouseX > 669 && mouseX < 698 && mouseY > 436 && mouseY < 486){
         toothClicked10 =true;
+         sound.play();        
             } 
 
     if(mouseX > 665 && mouseX < 696 && mouseY > 383 && mouseY < 434){
         toothClicked11 =true;
+         sound.play();        
             }            
                
 }            
