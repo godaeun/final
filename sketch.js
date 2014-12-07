@@ -19,7 +19,6 @@ var goCount1 = 0;
 
 function preload() {
  bgm = loadSound("bgm.mp3"); 
-
 }
 
 function setup(){
@@ -181,8 +180,7 @@ function draw(){
 
 function mousePressed(){
     if(mouseX > 340 && mouseX < 371 && mouseY > 383 && mouseY < 435){
-        toothClicked1 =true;  
-
+        toothClicked1 =true;
     }
 
 
