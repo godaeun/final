@@ -35,8 +35,9 @@ function setup(){
    img6 = loadImage("to3.png");
    img17 = loadImage("t3.png");
 
-   img7 = loadimage("to4.png");
-   img18 = loadimage("t4.png");   
+   img7 = loadImage("to4.png");
+   img18 = loadImage("t4.png");
+
 }
 
 function draw(){
@@ -87,6 +88,7 @@ function mousePressed(){
     if(mouseX > 357 && mouseX < 394 && mouseY > 469 && mouseY < 528){
         toothClicked3 =true;
             }    
+            
     if(mouseX > 393 && mouseX < 436 && mouseY > 493 && mouseY < 549){
         toothClicked4 =true;
             }
