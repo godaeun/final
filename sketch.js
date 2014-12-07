@@ -46,26 +46,25 @@ function setup(){
    img18 = loadImage("t4.png");
 
    img8 = loadImage("to5.png");
-   img19 = loadImage("t5.png");   
+   img19 = loadImage("t5.png");
 
    img9 = loadImage("to6.png");
-   img20 = loadImage("t6.png");   
+   img20 = loadImage("t6.png");
 
    img10 = loadImage("to7.png");
-   img21 = loadImage("t7.png");   
+   img21 = loadImage("t7.png"); 
 
-   img11 = loadimage("to8.png");
-   img22 = loadimage("t8.png");   
+   img11 = loadImage("to8.png");
+   img22 = loadImage("t8.png");   
 
    img12 = loadImage("to9.png");
-   img23 = loadImage("t9.png");
+   img23 = loadImage("t9.png");   
 
    img13 = loadImage("to10.png");
-   img24 = loadImage("t10.png");
+   img24 = loadImage("t10.png"); 
 
    img14 = loadImage("to11.png");
-   img25 = loadImage("t11.png");  
-
+   img25 = loadImage("t11.png"); 
 }
 
 function draw(){
