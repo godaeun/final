@@ -18,7 +18,7 @@ var soound, bgm;
 
 
 function preload() {
- soundFile = loadSound("gm.wav"); 
+ sound = loadSound("gm.wav"); 
 
 }
 
@@ -181,7 +181,7 @@ function draw(){
 function mousePressed(){
     if(mouseX > 340 && mouseX < 371 && mouseY > 383 && mouseY < 435){
         toothClicked1 =true;
-
+         sound.play();
     }
 
 
