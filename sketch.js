@@ -80,6 +80,11 @@ function draw(){
    goCount = goCount +2;
    if(goCount > 1016){
      goCount = 0;
+   if(toothClicked10){
+   image(img26,0+goCount, 134);
+   }else{
+   image(img13,0+goCount, 134);   
+   }   
    }
    
 
@@ -200,8 +205,7 @@ function mousePressed(){
 
     if(mouseX > 637 && mouseX < 674 && mouseY > 469 && mouseY < 528){
         toothClicked9 =true;
-        img26.stop();
-            }
+                    }
 
     if(mouseX > 669 && mouseX < 698 && mouseY > 436 && mouseY < 486){
         toothClicked10 =true;
