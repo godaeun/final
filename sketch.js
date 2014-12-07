@@ -78,6 +78,7 @@ function setup(){
 }
 
 function draw(){
+  
    background(bg); 
    noCursor();   
 
