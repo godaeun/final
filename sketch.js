@@ -125,7 +125,7 @@ function draw(){
    }
 
    if(toothClicked9){
-   image(img3,218, 61);
+   image(img2,218, 61);
    }else{
    image(img12,637, 469);   
    }      
