@@ -1,5 +1,5 @@
 var bg;
-var soound, amp;
+var soound, bgm;
 var diameter; 
 var angle = 0;
 var toothClicked1;
@@ -19,6 +19,7 @@ var goCount1 = 0;
 
 function preload() {
  sound = loadSound("bgm.mp3"); 
+
 }
 
 function setup(){
