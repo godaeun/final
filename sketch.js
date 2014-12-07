@@ -29,7 +29,6 @@ function setup(){
    bg = loadImage("1.jpg");
    amp = new p5.Amplitude();
    amp.setInput(sound);
-   sound.loop();
    diameter = height - 40;
 
 
