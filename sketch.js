@@ -18,7 +18,7 @@ var goCount1 = 0;
 
 
 function preload() {
- sound = loadSound("bgm.mp3"); 
+ bgm = loadSound("bgm.mp3"); 
 
 }
 
