@@ -84,8 +84,8 @@ function draw(){
      goCount = 0;
    }
 
-   image(img27, 0+goCount1, 615);
-   goCount1 = goCount1 -2;
+   image(img27, goCount1, 615);
+   goCount1 = goCount1 -3;
    if(goCount1 < -1016){
      goCount1 = 0;
    } 
