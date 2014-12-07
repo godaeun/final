@@ -5,6 +5,7 @@ var angle = 0;
 var toothClicked1;
 var toothClicked2;
 var toothClicked3;
+var toothClicked4;
 
 function preload() {
  sound = loadSound("bgm.mp3"); 
@@ -33,6 +34,9 @@ function setup(){
 
    img6 = loadImage("to3.png");
    img17 = loadImage("t3.png");
+
+   img7 = loadimage("to4.png");
+   img18 = loadimage("t4.png");   
 }
 
 function draw(){
@@ -62,6 +66,12 @@ function draw(){
    image(img6,357, 469);   
    }
 
+   if(toothClicked4){
+   image(img18,393, 523);
+   }else{
+   image(img7,393, 493);   
+   }
+
 }
 
 function mousePressed(){
@@ -76,5 +86,9 @@ function mousePressed(){
 
     if(mouseX > 357 && mouseX < 394 && mouseY > 469 && mouseY < 528){
         toothClicked3 =true;
-            }       
+            }    
+    if(mouseX > 393 && mouseX < 436 && mouseY > 493 && mouseY < 549){
+        toothClicked4 =true;
+            }
+               
 }            
