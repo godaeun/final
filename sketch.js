@@ -77,7 +77,7 @@ function draw(){
    background(bg); 
 
    image(img26, 0+goCount, 134);
-   goCount = goCount +500;
+   goCount = goCount +1;
    if(goCount > 1016){
      goCount = 0;
    }
