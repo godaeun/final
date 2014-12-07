@@ -79,7 +79,7 @@ function draw(){
    background(bg); 
 
    image(img26, 0+goCount, 134);
-   goCount = goCount +4;
+   goCount = goCount +3;
    if(goCount > 1016){
      goCount = 0;
    }
@@ -87,7 +87,7 @@ function draw(){
    image(img,218,61);
 
    image(img27, 1016+goCount1, 615);
-   goCount1 = goCount1 -2;
+   goCount1 = goCount1 -1;
    if(goCount1 < -1016){
      goCount1 = 0;
    } 
