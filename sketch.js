@@ -1,5 +1,4 @@
 var bg;
-var soound, bgm;
 var diameter; 
 var angle = 0;
 var toothClicked1;
@@ -19,7 +18,7 @@ var goCount1 = 0;
 
 function preload() {
  soundFormats('wav', 'ogg');
- sound = loadSound("gm.wav"); 
+ soundFile = loadSound("gm.wav"); 
 
 }
 
